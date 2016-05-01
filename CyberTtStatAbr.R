@@ -1,43 +1,4 @@
 
-
-Lambda <- 11;
-
-BioSamples <- 4;
-
-MinProbes <- 2;
-MinArrays <- 8;
-
-#PARAMETERS FOR LOWESS
-LowessfParam <- 0.4;
-
-#PARAMETERS FOR HUBER/MAD ESTIMATOR
-HuberConf <- 1.345; #(ie 95% Confidence Limit)
-HuberTol <- 1e-6;
-
-
-            ################# INPUT / OUTPUT  #################
-
-PlotResults <- TRUE;
-
-InputDirectory <- "/home/kirkb/Playarea/Bayesian Clustering/RockWeb/Linux/Data/Lowess/";
-
-ProbesetFiles <- c("S730.LowPset", "F730.LowPset",
-                   "S806.LowPset", "F806.LowPset",
-                   "S812.LowPset", "F812.LowPset",
-                   "S924.LowPset", "F924.LowPset");
-HeaderLength <- 9;  #DO NOT EDIT
-
-GenomeDirectory <- "/home/kirkb/Playarea/Bayesian Clustering/Distribution Depend/Data/Input/GenomeCrawlerSuite/"
-
-GenomeFile <- "SPyM1Table.txt";
-GenomeIDPos <- 6;   #DO NOT EDIT
-GenomeHeaderLength <- 0;   #DO NOT EDIT
-
-
-
-OutputDirectory <- "/home/kirkb/Playarea/Bayesian Clustering/Presentations/Thinking/temp/";
-OutputFile <- "G8bA8P2tStat";
-
 #This software is a rerelease of CyberTOR_WY.R module of Microarray Expression
 #Potential Suite with alterations in the input and ouput format in order to
 #improve transition between modules of eMESS.
